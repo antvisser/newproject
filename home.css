@@ -1,0 +1,203 @@
+/* * { border: 1px solid black;
+} */
+
+* { box-sizing:border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    margin:0;
+    width:100vw;
+    height:100vh;
+
+    
+    }
+    .blurb {
+        height: 100px;
+       margin-top:100px;
+
+    }
+    
+    h2 {
+      font-family: 'Poppins', sans-serif;
+      font-size: 20px;
+      text-align: center;
+    }
+    header {
+      border-bottom: 1px solid white;
+      background-color:black;
+      color:white;
+      display:flex;
+      justify-content:space-between;
+      align-items:center;
+      margin:0;
+      padding-left:20px;
+      padding-right: 20px;
+      position:fixed;
+      height:70px;
+      width:100vw;
+      top:0;
+       
+    }
+    .logo{
+        height:30px;
+        padding-left:50px;
+    }
+    main {
+      display:flex;
+      justify-content:center;
+      flex-direction:column;
+      border: solid 1px  white;
+      align-items: center;
+      background-image: linear-gradient(to right bottom, #ff01f3, #000000 100%);
+      color: #f9f9f9;
+      width:100vw;
+     
+    }
+    .banner{
+      margin-top:100px;
+    }
+    .statement {
+      height: 100px;
+      animation: slide 10s linear infinite;
+    }
+    @keyframes slide {
+      0% {
+        transform: translateX(0%);
+      
+      }
+      99%{
+        transform: translateX(-100%);
+      }
+      100% {
+        transform: translateX(0);
+      }
+    }
+    .slidercontainer {
+      padding-top: 100px;
+     font-size: 10px;
+        background-color: white;
+        height:200px;
+        align-items:center;
+       display:flex;
+       justify-content:center;
+       text-align:center;
+        background-repeat:no-repeat;
+        background-position:center center;
+        background-size:cover;
+       font-size: 10px;
+       color:#000000;
+}
+video {
+  width:100vw;
+  
+}
+
+/* .controls {
+    position: absolute;
+    top: 0;
+    right: 0;
+  }
+  
+  .menu-control {
+    fill: #fff;
+    margin: 25px;
+  }
+      */
+    /* HAMBURGER MENU OFF SIDE SCREEN
+    .menu {
+      background-color:white;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      top: 30%;
+      opacity: 0;
+      overflow-y: scroll;
+      padding: 15px 30px;
+      position: fixed;
+      transition: all 0.35s ease-in-out;
+      transform: translateX(100%);
+      z-index: 10;
+    }
+    .menu-open {
+      transform: translateX(0%);
+      opacity: 1;
+    }
+    .menu a, .menu a:focus, .menu a:visited {
+      color: black;
+      display: block;
+      font-size: 50px;
+      margin: 25px auto;
+      text-align: center;
+      text-decoration: none;
+    }
+    .menu-close {
+      background-color: white;
+      color: darkred;
+    } */
+    
+    
+    .heromessage {
+     
+    
+    }
+    .heromessage{
+        margin: 20px;
+    
+    }
+   
+    
+    .containerforheroboxes {
+        display: grid;
+        grid-template-columns : 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr;
+        justify-content: center;
+        align-content: center;
+        row-gap: 20px;
+        column-gap: 20px;
+        padding:10px;
+        margin-top:50px;
+        margin-bottom:300px;
+       
+        
+       
+        /* justify-content: center;
+        display: flex; */
+    }
+    .heroboxes {
+       display:flex;
+       border: solid 1px  white;
+      width: 300px;
+      height: 300px;
+      justify-content:center;
+      align-items: center;
+      text-align:center;
+      background-repeat:no-repeat;
+      background-position:center center;
+      text-align:center;
+       
+    }
+    .school {
+      background-image: url(images/show.web/b.20191123_Body\ Electric_performance_resize-168.jpg);
+    object-fit: fill;
+      }
+    .performances{ background-image:url(images/web_portraits/badge3.jpg);
+      object-fit:contain;
+
+    }
+  
+   .instructors{ background-image:url(images/classes.web/Body_Electric_Dance_Studios_Adult_jazz_ballet_classes_\ dance_collingwood_MG_0044-Edit_web.jpg)
+
+    }
+    .news { background-image:url(images/show.web/BodyElec\ NOV15-9393.jpg);
+    }
+
+    footer{
+        width: 100vw;
+        background-color: white;
+        color:black;
+        position:fixed;
+        bottom:0;
+    }
+       
+    
