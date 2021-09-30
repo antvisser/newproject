@@ -20,7 +20,7 @@ body
       font-size:80px;
       line-height: 100%;
       padding-top: 100px;
-      -webkit-text-stroke: 1px rgb(0, 122, 255);
+      -webkit-text-stroke: 0.3 white;
       -webkit-text-fill-color: transparent;
       }
       h2 {
@@ -71,7 +71,7 @@ video
         padding-right: 15px;
         top:220px;
      z-index:3;
-     -webkit-text-stroke: 1px rgb(0, 122, 255);
+     -webkit-text-stroke: 0.3 white;
         /* box-shadow:0 0 10px #666; */
         
       }
