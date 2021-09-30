@@ -186,6 +186,7 @@ width:100vw;
 } 
 .secondvideo{ display:none;}
 .thirdvideo{ display:none;}
+.forthvideo{ display:none;}
 /* .detailsforclasses:hover { */
   
   /* background-position-y: 50;
@@ -645,7 +646,7 @@ h1
     padding-left: 15px;
     padding-right: 10px;
     padding-top: 100px;
-    -webkit-text-stroke: .5px  #ff0080;
+    -webkit-text-stroke: .5px  white;
     -webkit-text-fill-color: transparent;
     }
     #frontclasses {

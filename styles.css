@@ -17,10 +17,11 @@ body
   }
   h1 
   {  
-      font-size:80px;
+      font-size:50px;
+      padding-left: 15px;
       line-height: 100%;
       padding-top: 100px;
-      -webkit-text-stroke: 0.6 white;
+      -webkit-text-stroke: 0.5 white;
       -webkit-text-fill-color: transparent;
       }
       h2 {
@@ -64,14 +65,16 @@ video
     
 
 
-      #front {
+      #front  {
+        font-size:100px;
         position:absolute;
         /* border:solid 1px#007aff; */
         padding-left: 15px;
-        padding-right: 15px;
-        top:220px;
+        padding-right: 200px;
+        top:90px;
      z-index:3;
-     -webkit-text-stroke: 0.6 white;
+     -webkit-text-stroke: 1px ;
+     -webkit-text-fill-color: transparent;
         /* box-shadow:0 0 10px #666; */
         
       }
